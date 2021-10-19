@@ -15,14 +15,10 @@ cp.playbarAssetArr =
 	'Glow',
 	'GlowSmall',
 	'Height',
-	'InnerStroke',
-	'InnerStrokeSmall',
 	'Play',
 	'Pause',
 	'Progress',
 	'Rewind',
-	'Shade',
-	'ShadeSmall',
 	'Stroke',
 	'StrokeSmall',
 	'Thumb',
@@ -46,6 +42,20 @@ cp.playbarTooltips =
 	TOC : "Contenido ",
 	Info : "Información ",
 	Print : "Imprimir "
+};
+cp.responsiveButtons = 
+{
+	//"ButtonName"	: 	[Primary,Tablet,Mobile],
+	"Rewind"		: 	[true,true,true,true,false],
+	"Backward"		: 	[true,true,true,true,true],
+	"Play"			: 	[true,true,true,true,true],
+	"Slider"		: 	[true,true,true,true,false],
+	"Forward"		: 	[true,true,true,true,true],
+	"CC"			: 	[true,true,true,true,true],
+	"AudioOn"		: 	[true,true,false,false,false],
+	"Exit"			: 	[true,true,true,true,true],
+	"FastForward"	: 	[true,true,true,true,false],
+	"TOC"			: 	[true,true,true,true,false]
 };
 cp.handleSpecialForPlaybar = function(playbarConstruct)
 {
